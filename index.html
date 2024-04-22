@@ -1,0 +1,176 @@
+
+
+
+
+
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatiable" content="IE=edge">
+        <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+        <title>PORTFOLIO WEBISTE</title>
+        <link rel="stylesheet"  href="style.css">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
+        </head>
+    <body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <h1>GAYATHRI</h1>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa fa-times" onclick="closemenu()"></i>
+                
+            </ul>
+            <i class="fa fa-bars" onclick="openmenu()" ></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/Ux Designer</p>
+            <h1>Welcome !! To Portfolio <br> Resume of Gayathri's<br></h1>
+            <b>(Fresher)</b>
+        </div>
+    </div>
+
+   </div>
+  
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="y.jpeg">
+
+    
+
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1><BR><BR>
+                <p>
+                    An enthusiastic engineering fresher who can use technical skills for the betterment of the organization. To seek a challenging position in Industry that will give me an opportunity to learn more and to improve my technical knowledge and skills. Highly motivated employee with desire to take on new challenges. Strong worth ethic, adaptability, and exceptional interpersonal skills. Adept at working effectively unsupervised and quickly mastering new skills.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    <p class="tab-links"  onclick="opentab('web')">Web Design Course</p>
+
+
+                </div>
+                <div class="tab-contents active-tab" id="education">
+                    <ul>
+                        <li><span>Degree </span>    : B.tech</li>
+                        <li><span>Course </span>    : Fashion Technology</li>
+                        <li><span>Duration</span> : 2016 -2020</li>
+                        <li><span>Address</span> : Sona College Of Technology,<br>Salem, Tamil Nadu.</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="web"> 
+                    <ul>
+                        <li><span>Course</span>    : Web Designer</li>
+                       
+                        <li><span>Duration</span> : july 2023 - Dec 2023</li>
+                        <li><span>Address</span> : Vitc Computer Center<br>Yelachanalli, Bangalore.</li>
+
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+     
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Skills</h1><br><br>
+        
+        <div class="services-list">
+            <p class="p">Programming Language</p><br>
+            <ul>
+                <li>•	C<br>•	C++</li>
+            </ul><br><br>
+            <p class="p">Web Technology</p><br>
+            <ul>
+                <li>•	HTML<br>•	CSS<br>•	JAVA SCRIPT<br>•	WORD PRESS<br>•	MY SQL<br>•	PHP</li>
+            </ul><br><br>
+            <p class="p">Software Skills</p><br>
+            <ul>
+                <li>•	MS OFFICE<br>•	IDE’s Visual Studio<br>•	Adobe Photoshop</li>
+            </ul>
+
+        </div>
+    
+    </div>
+   </div><br>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>gayathirispv@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i></i>7010796458</p>
+                <div class="scial-icons">
+                    <a href="https://www.linkedin.com/in/gayathiri-govindaraj-42b16a2ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Gayathirigovindaraj"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://wa.me/917010796458"><i class="fa-brands fa-square-whatsapp"></i></i></a>
+                    
+                </div><br><br>
+                <a href="gayathriresume.microsoftword" download class="btn btn2">Download CV</a><br>
+                <br>
+                <div class="contact-right">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="c91bd29d-1ec7-4a5f-858b-efda623d3a1c">
+
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" row="6" placeholder="Your Message" required></textarea>
+                        <input type="submit" class="btn2" name="xyz"></input>
+                    </form>
+                </div>
+            </div>
+            </form>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>
+            Copyright@Gayathri.Made with <i class="fa-solid fa-heart"></i> HTML,CSS,JS by gayathirispv@gmail.com
+        </p>
+    </div>
+</div>
+
+   <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents"); 
+    function opentab(tabname){
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+    <script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+
+   </script>
+   
+   
+    </body>
+    </html>
